@@ -25,7 +25,7 @@ int main()
    for (int i=0;i<2;i++){
        for (int j=0;j<2;j++){
            //soal Pengurangan kedua Matriks
-           cout<<matA[i][j]-matB[i][j]<<" ";
+           cout<<matA[i][j] - matB[i][j]<<" ";
        }
        cout<<endl;
    }

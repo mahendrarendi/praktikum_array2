@@ -10,14 +10,14 @@ int main()
    cout<<"Matriks A"<<endl;
    for (int i=0;i<2;i++){
        for(int j=0;j<2;j++){
-        cout<<matA[i][j]<<"";
+        cout<<matA[i][j]<<" ";
        }
        cout<<endl;
    }
    cout<<"Matriks B"<<endl;
    for(int i=0;i<2;i++){
        for(int j=0;j=0;j++){
-    cout<<matB[i][j]<<"";
+    cout<<matB[i][j]<<" ";
        }
        cout<<endl;
    }
@@ -25,11 +25,11 @@ int main()
    for (int i=0;i<2;i++){
        for (int j=0;j<2;j++){
            //soal Pengurangan kedua Matriks
-           cout<<matA[i][j]-matB[i][j]<<"";
+           cout<<matA[i][j]-matB[i][j]<<" ";
        }
        cout<<endl;
    }
-
-
+   
+    cout<<"\ndevelop @mahendrarendi";
     return 0;
 }
